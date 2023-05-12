@@ -1,0 +1,69 @@
+.game-container {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.board-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.board-row {
+    display: flex;
+}
+
+.setup {
+    padding: 10px;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.square:hover {
+    background-color: #e6e6e6;
+}
+
+.square.winning {
+    background-color: #f39c12
+}
+
+.history-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    height: 460px;
+    overflow: auto;
+}
+
+.history-button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: auto;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.history-button:hover {
+    background-color: #e6e6e6;
+}
+
+ul li {
+    list-style: none;
+}

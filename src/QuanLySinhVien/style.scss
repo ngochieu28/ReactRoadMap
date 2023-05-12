@@ -1,0 +1,62 @@
+.top1 {
+    text-align: left;
+    margin: 20px;
+}
+
+.top2 {
+    text-align: left;
+    margin: 20px;
+}
+
+.DisplayArea-container {
+    margin: 20px;
+
+    table {
+        thead {
+            tr {
+                td {
+                    border: 1px solid black;
+                    border-collapse: collapse;
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                td {
+                    border: 1px solid black;
+                    border-collapse: collapse;
+                    padding: 5px;
+                }
+            }
+        }
+    }
+}
+
+.InputInfo-container {
+    text-align: left;
+    margin: 20px;
+
+    .InputInfo-button {
+        margin-bottom: 10px;
+    }
+
+    .InputInfo-input {
+        .InputInfo {
+            margin: 10px;
+        }
+
+        input {
+            margin: 0 10px;
+        }
+
+        button {
+            width: 100%;
+        }
+    }
+}
+
+.Modals {
+    text-align: left;
+    margin: 20px;
+}
